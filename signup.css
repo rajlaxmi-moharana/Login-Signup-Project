@@ -427,6 +427,226 @@ footer a {
   }
 }
 
+@media (orientation: landscape) and (max-width: 1000px) {
+  body {
+    overflow-y: auto;
+  }
+
+  .container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .left_panel {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(
+      to bottom,
+      var(--LINEAR-COLOR-one),
+      var(--LINEAR-COLOR-two)
+    );
+  }
+
+  .left_panel i {
+    margin: 50px 10px 0 10px;
+    font-size: 100px !important;
+  }
+
+  .left_panel__title {
+    margin: 0 0 5px 0;
+  }
+  .left_panel__description {
+    margin: 0 0 1rem 0;
+    padding: 1rem;
+    font-weight: 700;
+  }
+
+  /* || RIGHT PANEL  */
+  .right_panel {
+    margin: 10px;
+    padding: 1rem 0 0 2rem;
+  }
+
+  .right_panel__heading {
+    font-size: 2rem;
+    margin: 1rem 0 5px 0;
+  }
+
+  .right_panel__description {
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+  }
+
+  input[type="text"] {
+    padding: 0.7rem 10rem 0.7rem 0.7rem;
+    margin: 0.4rem 0rem 0px 0px;
+  }
+
+  .form__heading {
+    font-size: 0.9rem;
+    padding-top: 0.3rem;
+  }
+
+  .form__flex {
+    display: flex;
+    gap: 8rem;
+  }
+
+  .checkbox {
+    display: flex;
+    justify-content: space-between;
+    gap: 0.2rem;
+  }
+
+  input[type="checkbox"] {
+    font-size: 0.3rem;
+    margin: 1rem 0 10px 0;
+    padding-left: 0;
+  }
+
+  a[href="#"] {
+    font-size: 0.7rem;
+    margin: 1rem 10px 10px 0;
+  }
+
+  .signup {
+    margin: 0.3rem 2rem 1rem 35%;
+    padding: 0.4rem 7rem;
+    border-radius: 15px;
+    font-weight: 700;
+    background: linear-gradient(
+      to bottom,
+      var(--LINEAR-COLOR-one),
+      var(--LINEAR-COLOR-two)
+    );
+  }
+
+  .signup:hover {
+    margin: 0.3rem 2rem 1rem 10rem;
+    padding: 0.4rem 4rem;
+    border-radius: 15px;
+    font-weight: 700;
+    background: linear-gradient(
+      to bottom,
+      rgb(255, 165, 0, 0.5),
+      var(--LINEAR-COLOR-two)
+    );
+  }
+}
+
+@media (orientation: landscape) and (max-width: 900px) {
+  body {
+    overflow-y: auto;
+  }
+
+  .container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .left_panel {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(
+      to bottom,
+      var(--LINEAR-COLOR-one),
+      var(--LINEAR-COLOR-two)
+    );
+  }
+
+  .left_panel i {
+    margin: 50px 10px 0 10px;
+    font-size: 100px !important;
+  }
+
+  .left_panel__title {
+    margin: 0 0 5px 0;
+  }
+  .left_panel__description {
+    margin: 0 0 1rem 0;
+    padding: 1rem;
+    font-weight: 700;
+  }
+
+  /* || RIGHT PANEL  */
+  .right_panel {
+    margin: 10px;
+    padding: 1rem 0 0 2rem;
+  }
+
+  .right_panel__heading {
+    font-size: 2rem;
+    margin: 1rem 0 5px 0;
+  }
+
+  .right_panel__description {
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+  }
+
+  input[type="text"] {
+    padding: 0.7rem 10rem 0.7rem 0.7rem;
+    margin: 0.4rem 0rem 0px 0px;
+  }
+
+  .form__heading {
+    font-size: 0.9rem;
+    padding-top: 0.3rem;
+  }
+
+  .form__flex {
+    display: flex;
+    gap: 4rem;
+  }
+
+  .checkbox {
+    display: flex;
+    justify-content: space-between;
+    gap: 0.2rem;
+  }
+
+  input[type="checkbox"] {
+    font-size: 0.3rem;
+    margin: 1rem 0 10px 0;
+    padding-left: 0;
+  }
+
+  a[href="#"] {
+    font-size: 0.7rem;
+    margin: 1rem 10px 10px 0;
+  }
+
+  .signup {
+    margin: 0.3rem 2rem 1rem 35%;
+    padding: 0.4rem 7rem;
+    border-radius: 15px;
+    font-weight: 700;
+    background: linear-gradient(
+      to bottom,
+      var(--LINEAR-COLOR-one),
+      var(--LINEAR-COLOR-two)
+    );
+  }
+
+  .signup:hover {
+    margin: 0.3rem 2rem 1rem 10rem;
+    padding: 0.4rem 4rem;
+    border-radius: 15px;
+    font-weight: 700;
+    background: linear-gradient(
+      to bottom,
+      rgb(255, 165, 0, 0.5),
+      var(--LINEAR-COLOR-two)
+    );
+  }
+}
+
 @media (orientation: landscape) and (max-width: 800px) {
   * {
     margin: 0;
