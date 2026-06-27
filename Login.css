@@ -288,7 +288,7 @@ footer a {
   }
 
   .login:hover {
-    margin: 1rem 2rem 1rem 5rem;
+    margin: 1rem 2rem 1rem 38%;
     padding: 0.6rem 2rem;
     background: linear-gradient(
       to bottom,
@@ -819,7 +819,7 @@ footer a {
   }
 
   .login:hover {
-    margin: 0.3rem 2rem 1rem 8rem;
+    margin: 0.3rem 2rem 1rem 30%;
     padding: 0.4rem 7rem;
     border-radius: 10px;
     font-weight: 700;

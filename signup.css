@@ -273,9 +273,8 @@ footer a {
   }
 
   .signup:hover {
-    width: 70%;
-    margin: 1rem 0.9rem 1rem 1.5rem;
-    padding: 0.5rem;
+    margin: 1rem 2rem 1rem 38%;
+    padding: 0.6rem 2rem;
     font-weight: 700;
     background: linear-gradient(
       to left,
@@ -526,7 +525,7 @@ footer a {
 
   .signup:hover {
     margin: 0.3rem 2rem 1rem 35%;
-    padding: 0.4rem 4rem;
+    padding: 0.4rem 7rem;
     border-radius: 15px;
     font-weight: 700;
     background: linear-gradient(
@@ -636,7 +635,7 @@ footer a {
 
   .signup:hover {
     margin: 0.3rem 2rem 1rem 35%;
-    padding: 0.4rem 4rem;
+    padding: 0.4rem 7rem;
     border-radius: 15px;
     font-weight: 700;
     background: linear-gradient(
@@ -752,8 +751,8 @@ footer a {
   }
 
   .signup:hover {
-    margin: 0.3rem 2rem 1rem 10rem;
-    padding: 0.4rem 4rem;
+    margin: 0.3rem 2rem 1rem 30%;
+    padding: 0.4rem 7rem;
     border-radius: 15px;
     font-weight: 700;
     background: linear-gradient(
