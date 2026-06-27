@@ -1,0 +1,599 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+
+/* || RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* || Css Variable  */
+:root {
+  --LINEAR-COLOR-one: orange;
+  --LINEAR-COLOR-two: rgb(241, 76, 11);
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  min-height: 100vh;
+  overflow-y: hidden;
+}
+
+/* || Container  */
+.container {
+  display: flex;
+  width: 100%;
+  min-height: 100vh;
+}
+/* || Container  end */
+
+/* || Left_panel */
+.left_panel {
+  min-width: 50%;
+  min-height: 100%;
+  background: linear-gradient(
+    to left,
+    var(--LINEAR-COLOR-one),
+    var(--LINEAR-COLOR-two)
+  );
+  text-align: center;
+}
+
+/* || Left_panel childs */
+.left_panel__title,
+.left_panel__description {
+  color: #fff;
+  text-align: center;
+}
+
+.left_panel__title {
+  font-weight: bold;
+  font-size: 2rem;
+  margin: 0 1rem 1rem 1rem;
+  padding-top: 0;
+}
+
+.left_panel__description {
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.left_panel i {
+  margin: 200px auto;
+  margin-bottom: 10px;
+  padding-bottom: 0;
+}
+
+/* || Left_panel end */
+
+/* || right_panel */
+.right_panel {
+  margin: 15px 100px;
+}
+
+/* || right_panel childs */
+.right_panel__heading {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  font-weight: bolder;
+}
+
+.right_panel__description {
+  font-size: 1rem;
+  margin-bottom: 0.8rem;
+  font-weight: 800;
+}
+
+/* || form part  */
+input[type="text"] {
+  border: 1px solid black;
+  padding: 0.7rem 10rem 0.7rem 0.7rem;
+  margin: 0.4rem 1.5rem 0px 0px;
+  border-radius: 5px;
+}
+
+.form__heading {
+  padding-top: 1rem;
+  font-size: 1rem;
+}
+
+/* || checkbox part  */
+
+.checkbox {
+  display: flex;
+  justify-content: space-between;
+  gap: 15rem;
+}
+
+input[type="checkbox"] {
+  margin-top: 1.8rem;
+  font-weight: bolder;
+}
+
+/* || login button part*/
+.signup {
+  margin: 1rem 1.5rem 1rem 5rem;
+  padding: 1rem 10rem;
+  background: linear-gradient(
+    to left,
+    var(--LINEAR-COLOR-one),
+    var(--LINEAR-COLOR-two)
+  );
+  color: white;
+  font-size: 1rem;
+  border-radius: 5px;
+}
+
+.signup:hover {
+  margin: 1rem 1.5rem 1rem 5rem;
+  padding: 1rem 10rem;
+  background: linear-gradient(
+    to left,
+    rgb(255, 165, 0, 0.7),
+    var(--LINEAR-COLOR-two)
+  );
+  color: white;
+  font-size: 1rem;
+  border-radius: 5px;
+}
+
+/* || option text part */
+.text {
+  text-align: center;
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+/* || options*/
+
+.option {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 7rem;
+  margin-top: 5px;
+}
+
+.option__Google,
+.option__Github {
+  display: flex;
+  gap: 7px;
+}
+
+.option a {
+  text-decoration: none;
+}
+
+/* || footer part */
+footer {
+  text-align: center;
+  font-size: 0.7rem;
+  font-weight: 300;
+  margin-top: 1rem;
+}
+
+footer a {
+  text-decoration: none;
+}
+
+/* || right_panel end */
+
+/* || RESPONSIVE DESIGN------>> */
+
+/* || FOR MOBILE DEVICES  */
+@media screen and (max-width: 480px) {
+  html {
+    overflow-x: hidden;
+  }
+  .container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  /* ||LEFT PANEL  */
+  .left_panel {
+    background: linear-gradient(
+      to left,
+      var(--LINEAR-COLOR-one),
+      var(--LINEAR-COLOR-two)
+    );
+  }
+
+  .left_panel i {
+    font-size: 100px !important;
+    margin: 20px auto;
+    margin-bottom: 10px;
+    padding-bottom: 0;
+  }
+
+  .left_panel__title {
+    font-size: 1.2rem;
+  }
+
+  .left_panel__description {
+    font-size: 0.9rem;
+    text-align: center;
+    padding: 0 1rem;
+    margin-bottom: 10px;
+    font-weight: 500;
+  }
+
+  /* || RIGHT PANEL  */
+  .right_panel {
+    min-width: 60%;
+    margin: 0;
+    padding: 0.6rem 0 0 1rem;
+  }
+
+  .right_panel__heading {
+    font-size: 2rem;
+  }
+
+  .right_panel__description {
+    font-size: 1rem;
+    margin: 5px 0 5px 0;
+    padding-bottom: 0.5rem;
+  }
+
+  input[type="text"] {
+    border: 1px solid black;
+    padding: 0.7rem 10rem 0.7rem 0.7rem;
+    margin: 0.4rem 1.5rem 0px 0px;
+    border-radius: 5px;
+  }
+
+  .form__heading {
+    font-size: 1rem;
+  }
+
+  input[type="checkbox"] {
+    font-size: 0.7rem;
+  }
+
+  .form__heading--con_pass {
+    margin-bottom: 0;
+    padding-bottom: 0%;
+  }
+
+  .checkbox {
+    margin: 0 0 10px 0;
+    padding-top: 0px;
+    height: 30px;
+  }
+
+  .signup {
+    margin: 1rem 2rem 1rem 38%;
+    padding: 0.6rem 2rem;
+    font-weight: 700;
+    background: linear-gradient(
+      to left,
+      var(--LINEAR-COLOR-one),
+      var(--LINEAR-COLOR-two)
+    );
+  }
+
+  .signup:hover {
+    width: 70%;
+    margin: 1rem 0.9rem 1rem 1.5rem;
+    padding: 0.5rem;
+    font-weight: 700;
+    background: linear-gradient(
+      to left,
+      rgb(255, 165, 0, 0.7),
+      var(--LINEAR-COLOR-two)
+    );
+  }
+
+  .text {
+    margin-bottom: 0;
+  }
+
+  .option {
+    gap: 2rem;
+    margin: 1rem 0 0.7rem 0;
+  }
+
+  footer {
+    margin: 10px 0 5px 0;
+    font-size: 10px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  /* || CONTAINER  */
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    overflow-y: hidden;
+  }
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+
+  .left_panel {
+    /* width: 100%; */
+    min-width: 100%;
+    min-height: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(
+      to right,
+      var(--LINEAR-COLOR-one),
+      var(--LINEAR-COLOR-two)
+    );
+  }
+
+  .left_panel i {
+    margin: 20px 10px 0 10px;
+  }
+
+  .left_panel__title {
+    margin: 0 0 5px 0;
+  }
+  .left_panel__description {
+    margin: 0 0 5px 0;
+    padding: 0.5rem;
+    font-weight: 700;
+  }
+
+  /* || RIGHT PANEL  */
+  .right_panel {
+    /* width: 100%; */
+    min-width: 100%;
+    margin: 0;
+    padding: 0.5rem 0 0 1rem;
+  }
+
+  .right_panel__heading {
+    font-size: 1.5rem;
+    margin-bottom: 2px;
+  }
+
+  .right_panel__description {
+    font-size: 0.8rem;
+    margin-bottom: 0px;
+    padding-bottom: 5px;
+    font-weight: 500;
+  }
+
+  input[type="text"] {
+    padding: 0.3rem 5rem 0.3rem 0.3rem;
+    margin: 0.3rem 0rem 0px 0px;
+  }
+
+  .form__heading {
+    font-size: 0.7rem;
+    padding-top: 1px;
+  }
+
+  .checkbox {
+    display: flex;
+    gap: 1rem;
+  }
+
+  input[type="checkbox"] {
+    font-size: 5px;
+    margin: 10px 0 2px 0;
+    padding-left: 0;
+  }
+
+  .signup {
+    margin: 0 2rem 0.3rem 2rem;
+    padding: 0.4rem 3rem;
+    border-radius: 10px;
+    font-weight: 700;
+    background: linear-gradient(
+      to right,
+      var(--LINEAR-COLOR-one),
+      var(--LINEAR-COLOR-two)
+    );
+  }
+
+  .signup:hover {
+    margin: 0 2rem 0.3rem 2rem;
+    padding: 0.4rem 3rem;
+    border-radius: 10px;
+    font-weight: 700;
+    background: linear-gradient(
+      to right,
+      rgb(255, 165, 0, 0.5),
+      var(--LINEAR-COLOR-two)
+    );
+  }
+
+  .text {
+    font-size: 0.7rem;
+  }
+
+  .option {
+    gap: 2rem;
+    margin: 0.3rem 0 0 0;
+    font-size: 0.7rem;
+    font-weight: 900;
+  }
+
+  footer {
+    margin-top: 0 0 5px 0;
+    font-size: 10px;
+  }
+}
+
+@media (orientation: landscape) and (max-width: 800px) {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+    overflow-y: auto;
+  }
+
+  .container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .left_panel {
+    min-width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(
+      to bottom,
+      var(--LINEAR-COLOR-one),
+      var(--LINEAR-COLOR-two)
+    );
+  }
+
+  .left_panel i {
+    margin: 50px 10px 0 10px;
+    font-size: 100px !important;
+  }
+
+  .left_panel__title {
+    margin: 0 0 5px 0;
+  }
+  .left_panel__description {
+    margin: 0 0 5px 0;
+    padding: 1rem;
+    font-weight: 700;
+  }
+
+  /* || RIGHT PANEL  */
+  .right_panel {
+    min-width: 60%;
+    margin: 10px;
+    padding: 1rem 0 0 2rem;
+  }
+
+  .right_panel__heading {
+    font-size: 2rem;
+    margin: 1rem 0 5px 0;
+  }
+
+  .right_panel__description {
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+  }
+
+  input[type="text"] {
+    padding: 0.7rem 10rem 0.7rem 0.7rem;
+    margin: 0.4rem 0rem 0px 0px;
+  }
+
+  .form__heading {
+    font-size: 0.9rem;
+    padding-top: 0.3rem;
+  }
+
+  .form__flex {
+    display: flex;
+    gap: 2rem;
+  }
+
+  .checkbox {
+    display: flex;
+    justify-content: space-between;
+    gap: 0.2rem;
+  }
+
+  input[type="checkbox"] {
+    font-size: 0.3rem;
+    margin: 1rem 0 10px 0;
+    padding-left: 0;
+  }
+
+  a[href="#"] {
+    font-size: 0.7rem;
+    margin: 1rem 10px 10px 0;
+  }
+
+  .signup {
+    margin: 0.3rem 2rem 1rem 30%;
+    padding: 0.4rem 7rem;
+    border-radius: 15px;
+    font-weight: 700;
+    background: linear-gradient(
+      to bottom,
+      var(--LINEAR-COLOR-one),
+      var(--LINEAR-COLOR-two)
+    );
+  }
+
+  .signup:hover {
+    margin: 0.3rem 2rem 1rem 10rem;
+    padding: 0.4rem 4rem;
+    border-radius: 15px;
+    font-weight: 700;
+    background: linear-gradient(
+      to bottom,
+      rgb(255, 165, 0, 0.5),
+      var(--LINEAR-COLOR-two)
+    );
+  }
+
+  .text {
+    font-size: 0.7rem;
+  }
+
+  .option {
+    justify-content: space-around;
+    gap: 1rem;
+    margin: 0.8rem 0 10px 0;
+    font-size: 1rem;
+    font-weight: 900;
+  }
+
+  footer {
+    margin: 1rem 0 5px 0;
+    font-size: 10px;
+  }
+}
+
+@media (orientation: landscape) and (max-width: 700px) {
+  input[type="text"] {
+    padding: 0.7rem 6rem 0.7rem 0.7rem;
+    margin: 0.4rem 0rem 0px 0px;
+  }
+}
+
+@media (orientation: landscape) and (max-width: 600px) {
+  input[type="text"] {
+    padding: 0.7rem 4rem 0.7rem 0.7rem;
+    margin: 0.4rem 0rem 0px 0px;
+  }
+
+  .signup {
+    margin: 0.3rem 2rem 1rem 25%;
+  }
+
+  .signup:hover {
+    margin: 0.3rem 2rem 1rem 25%;
+  }
+}
+
+@media (orientation: landscape) and (max-width: 500px) {
+  input[type="text"] {
+    padding: 0.7rem 2rem 0.7rem 0.7rem;
+    margin: 0.4rem 0rem 0px 0px;
+  }
+
+  .signup {
+    margin: 0.3rem 2rem 1rem 20%;
+  }
+
+  .signup:hover {
+    margin: 0.3rem 2rem 1rem 20%;
+  }
+}

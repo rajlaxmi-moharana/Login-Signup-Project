@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="signup.css" />
+  </head>
+  <body>
+    <main class="container">
+      <!-- || Left panel -->
+      <div class="left_panel">
+        <i
+          class="fa-solid fa-circle-user"
+          style="font-size: 200px; color: white"
+        ></i>
+        <h1 class="left_panel__title">Create Account</h1>
+        <p class="left_panel__description">
+          Join us today and start your journey with us.
+        </p>
+      </div>
+
+      <!-- || Right panel -->
+      <div class="right_panel">
+        <h1 class="right_panel__heading">Sign Up</h1>
+        <p class="right_panel__description">
+          Create your account to get started.
+        </p>
+
+        <!-- || Form  -->
+        <form>
+          <div class="form__flex">
+            <div>
+              <h2 class="form__heading form__heading--full">Full Name</h2>
+              <input type="text" placeholder="Enter your full name" />
+            </div>
+            <div>
+              <h2 class="form__heading">Email</h2>
+              <input type="text" placeholder="Enter your email" />
+            </div>
+          </div>
+
+          <div class="form__flex">
+            <div>
+              <h2 class="form__heading form__heading--password">Password</h2>
+              <input type="text" placeholder="Enter your password" />
+            </div>
+            <div>
+              <h2 class="form__heading form__heading--con_pass">
+                Conform Paasword
+              </h2>
+              <input type="text" placeholder="Conform your password" />
+            </div>
+          </div>
+        </form>
+
+        <!-- || Checkbox part -->
+        <div class="checkbox">
+          <label>
+            <input type="checkbox" /><span class="nowrap"
+              >I agree to the Terms $ Conditions</span
+            >
+          </label>
+        </div>
+
+        <!-- || Sign Up button  -->
+        <button href="#" class="signup" style="text-align: center">
+          Sign Up
+        </button>
+
+        <!-- || option text part  -->
+        <h2 class="text">or Continue with</h2>
+
+        <!-- || options  -->
+        <div class="option">
+          <div class="option__Google">
+            <img
+              src="Images\google image.jpeg"
+              alt="Google"
+              height="20"
+              width="20"
+            />
+            <a href="https://www.google.com/">Google</a>
+          </div>
+
+          <div class="option__Github">
+            <img src="Images\github.jpeg" alt="Github" width="20" height="20" />
+            <a href="https://github.com/">Github</a>
+          </div>
+        </div>
+
+        <!-- || Footer  -->
+        <footer>
+          <h2>Already have an account? <a href="Login.html">Login</a></h2>
+        </footer>
+      </div>
+    </main>
+  </body>
+</html>
