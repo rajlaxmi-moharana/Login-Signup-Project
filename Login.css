@@ -413,7 +413,7 @@ footer a {
   /* || Login button  */
   .login {
     display: block;
-    margin: 1rem auto 0 auto;
+    margin: 1rem auto 5px auto;
     padding: 0.4rem 3rem;
     border-radius: 10px;
     font-weight: 700;
@@ -426,7 +426,7 @@ footer a {
 
   .login:hover {
     display: block;
-    margin: 1rem auto 0 auto;
+    margin: 1rem auto 5px auto;
     padding: 0.4rem 3rem;
     border-radius: 10px;
     font-weight: 700;
