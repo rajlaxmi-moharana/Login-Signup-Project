@@ -112,7 +112,8 @@ input[type="checkbox"] {
 
 /* || login button part*/
 .signup {
-  margin: 1rem 1.5rem 1rem 5rem;
+  display: block;
+  margin: 1rem auto 0 auto;
   padding: 1rem 10rem;
   background: linear-gradient(
     to left,
@@ -125,7 +126,8 @@ input[type="checkbox"] {
 }
 
 .signup:hover {
-  margin: 1rem 1.5rem 1rem 5rem;
+  display: block;
+  margin: 1rem auto 0 auto;
   padding: 1rem 10rem;
   background: linear-gradient(
     to left,
@@ -262,7 +264,8 @@ footer a {
   }
 
   .signup {
-    margin: 1rem 2rem 1rem 38%;
+    display: block;
+    margin: 1rem auto 0 auto;
     padding: 0.6rem 2rem;
     font-weight: 700;
     background: linear-gradient(
@@ -273,7 +276,8 @@ footer a {
   }
 
   .signup:hover {
-    margin: 1rem 2rem 1rem 38%;
+    display: block;
+    margin: 1rem auto 0 auto;
     padding: 0.6rem 2rem;
     font-weight: 700;
     background: linear-gradient(
@@ -325,7 +329,7 @@ footer a {
     justify-content: center;
     align-items: center;
     background: linear-gradient(
-      to right,
+      to left,
       var(--LINEAR-COLOR-one),
       var(--LINEAR-COLOR-two)
     );
@@ -386,25 +390,27 @@ footer a {
   }
 
   .signup {
-    margin: 0 2rem 0.3rem 2rem;
+    display: block;
+    margin: 1rem auto 0 auto;
     padding: 0.4rem 3rem;
     border-radius: 10px;
     font-weight: 700;
     background: linear-gradient(
-      to right,
+      to left,
       var(--LINEAR-COLOR-one),
       var(--LINEAR-COLOR-two)
     );
   }
 
   .signup:hover {
-    margin: 0 2rem 0.3rem 2rem;
+    display: block;
+    margin: 1rem auto 0 auto;
     padding: 0.4rem 3rem;
     border-radius: 10px;
     font-weight: 700;
     background: linear-gradient(
-      to right,
-      rgb(255, 165, 0, 0.5),
+      to left,
+      rgb(255, 165, 0, 0.7),
       var(--LINEAR-COLOR-two)
     );
   }
@@ -442,7 +448,7 @@ footer a {
     justify-content: center;
     align-items: center;
     background: linear-gradient(
-      to bottom,
+      to left,
       var(--LINEAR-COLOR-one),
       var(--LINEAR-COLOR-two)
     );
@@ -512,25 +518,27 @@ footer a {
   }
 
   .signup {
-    margin: 0.3rem 2rem 1rem 35%;
+    display: block;
+    margin: 1rem auto 0 auto;
     padding: 0.4rem 7rem;
     border-radius: 15px;
     font-weight: 700;
     background: linear-gradient(
-      to bottom,
+      to left,
       var(--LINEAR-COLOR-one),
       var(--LINEAR-COLOR-two)
     );
   }
 
   .signup:hover {
-    margin: 0.3rem 2rem 1rem 35%;
+    display: block;
+    margin: 1rem auto 0 auto;
     padding: 0.4rem 7rem;
     border-radius: 15px;
     font-weight: 700;
     background: linear-gradient(
-      to bottom,
-      rgb(255, 165, 0, 0.5),
+      to left,
+      rgb(255, 165, 0, 0.7),
       var(--LINEAR-COLOR-two)
     );
   }
@@ -552,7 +560,7 @@ footer a {
     justify-content: center;
     align-items: center;
     background: linear-gradient(
-      to bottom,
+      to left,
       var(--LINEAR-COLOR-one),
       var(--LINEAR-COLOR-two)
     );
@@ -622,25 +630,27 @@ footer a {
   }
 
   .signup {
-    margin: 0.3rem 2rem 1rem 35%;
+    display: block;
+    margin: 1rem auto 0 auto;
     padding: 0.4rem 7rem;
     border-radius: 15px;
     font-weight: 700;
     background: linear-gradient(
-      to bottom,
+      to left,
       var(--LINEAR-COLOR-one),
       var(--LINEAR-COLOR-two)
     );
   }
 
   .signup:hover {
-    margin: 0.3rem 2rem 1rem 35%;
+    display: block;
+    margin: 1rem auto 0 auto;
     padding: 0.4rem 7rem;
     border-radius: 15px;
     font-weight: 700;
     background: linear-gradient(
-      to bottom,
-      rgb(255, 165, 0, 0.5),
+      to left,
+      rgb(255, 165, 0, 0.7),
       var(--LINEAR-COLOR-two)
     );
   }
@@ -668,7 +678,7 @@ footer a {
     justify-content: center;
     align-items: center;
     background: linear-gradient(
-      to bottom,
+      to left,
       var(--LINEAR-COLOR-one),
       var(--LINEAR-COLOR-two)
     );
@@ -739,25 +749,27 @@ footer a {
   }
 
   .signup {
-    margin: 0.3rem 2rem 1rem 30%;
+    display: block;
+    margin: 1rem auto 0 auto;
     padding: 0.4rem 7rem;
     border-radius: 15px;
     font-weight: 700;
     background: linear-gradient(
-      to bottom,
+      to left,
       var(--LINEAR-COLOR-one),
       var(--LINEAR-COLOR-two)
     );
   }
 
   .signup:hover {
-    margin: 0.3rem 2rem 1rem 30%;
+    display: block;
+    margin: 1rem auto 0 auto;
     padding: 0.4rem 7rem;
     border-radius: 15px;
     font-weight: 700;
     background: linear-gradient(
-      to bottom,
-      rgb(255, 165, 0, 0.5),
+      to left,
+      rgb(255, 165, 0, 0.7),
       var(--LINEAR-COLOR-two)
     );
   }

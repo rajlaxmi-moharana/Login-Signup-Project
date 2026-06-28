@@ -117,21 +117,21 @@ a[href="#"] {
 }
 
 /* || login button part*/
+
 .login {
-  margin: 1.5rem 1.5rem 1.5rem 5rem;
+  display: block;
+  margin: 1rem auto 0 auto;
   padding: 1rem 10rem;
-  background: linear-gradient(
-    to left,
-    var(--LINEAR-COLOR-one),
-    var(--BUTTON-COLOR)
-  );
+  background:
+    linear-gradient(to left, var(--LINEAR-COLOR-one)), var(--BUTTON-COLOR);
   color: white;
   font-size: 1rem;
   border-radius: 5px;
 }
 
 .login:hover {
-  margin: 1.5rem 1.5rem 1.5rem 5rem;
+  display: block;
+  margin: 1rem auto 0 auto;
   padding: 1rem 10rem;
   background: linear-gradient(
     to left,
@@ -277,21 +277,23 @@ footer a {
 
   /* || Login button  */
   .login {
-    margin: 1rem 2rem 1rem 38%;
+    display: block;
+    margin: 1rem auto 0 auto;
     padding: 0.6rem 2rem;
     background: linear-gradient(
-      to bottom,
+      to left,
       var(--LINEAR-COLOR-one),
-      var(--LINEAR-COLOR-two)
+      var(--BUTTON-COLOR)
     );
     font-weight: 500;
   }
 
   .login:hover {
-    margin: 1rem 2rem 1rem 38%;
+    display: block;
+    margin: 1rem auto 0 auto;
     padding: 0.6rem 2rem;
     background: linear-gradient(
-      to bottom,
+      to left,
       rgb(0, 0, 255, 0.5),
       var(--BUTTON-COLOR)
     );
@@ -336,7 +338,7 @@ footer a {
     justify-content: center;
     align-items: center;
     background: linear-gradient(
-      to bottom,
+      to left,
       var(--LINEAR-COLOR-one),
       var(--LINEAR-COLOR-two)
     );
@@ -410,24 +412,26 @@ footer a {
 
   /* || Login button  */
   .login {
-    margin: 0.3rem 2rem 0.3rem 5rem;
+    display: block;
+    margin: 1rem auto 0 auto;
     padding: 0.4rem 3rem;
     border-radius: 10px;
     font-weight: 700;
     background: linear-gradient(
-      to bottom,
+      to left,
       var(--LINEAR-COLOR-one),
-      var(--LINEAR-COLOR-two)
+      var(--BUTTON-COLOR)
     );
   }
 
   .login:hover {
-    margin: 0.3rem 2rem 0.3rem 5rem;
+    display: block;
+    margin: 1rem auto 0 auto;
     padding: 0.4rem 3rem;
     border-radius: 10px;
     font-weight: 700;
     background: linear-gradient(
-      to bottom,
+      to left,
       rgb(0, 0, 255, 0.5),
       var(--BUTTON-COLOR)
     );
@@ -472,7 +476,7 @@ footer a {
     justify-content: center;
     align-items: center;
     background: linear-gradient(
-      to bottom,
+      to left,
       var(--LINEAR-COLOR-one),
       var(--LINEAR-COLOR-two)
     );
@@ -546,26 +550,28 @@ footer a {
 
   /* || Login button  */
   .login {
-    margin: 0.3rem 2rem 1rem 35%;
+    display: block;
+    margin: 1rem auto 0 auto;
     padding: 0.4rem 7rem;
     border-radius: 10px;
     font-weight: 700;
     background: linear-gradient(
-      to bottom,
+      to left,
       var(--LINEAR-COLOR-one),
-      var(--LINEAR-COLOR-two)
+      var(--BUTTON-COLOR)
     );
   }
 
   .login:hover {
-    margin: 0.3rem 2rem 1rem 35%;
+    display: block;
+    margin: 1rem auto 0 auto;
     padding: 0.4rem 7rem;
     border-radius: 10px;
     font-weight: 700;
     background: linear-gradient(
-      to bottom,
-      var(--LINEAR-COLOR-one),
-      rgb(21, 21, 97, 0.5)
+      to left,
+      rgb(0, 0, 255, 0.5),
+      var(--BUTTON-COLOR)
     );
   }
 }
@@ -589,7 +595,7 @@ footer a {
     justify-content: center;
     align-items: center;
     background: linear-gradient(
-      to bottom,
+      to left,
       var(--LINEAR-COLOR-one),
       var(--LINEAR-COLOR-two)
     );
@@ -663,26 +669,28 @@ footer a {
 
   /* || Login button  */
   .login {
-    margin: 0.3rem 2rem 1rem 35%;
+    display: block;
+    margin: 1rem auto 0 auto;
     padding: 0.4rem 7rem;
     border-radius: 10px;
     font-weight: 700;
     background: linear-gradient(
-      to bottom,
+      to left,
       var(--LINEAR-COLOR-one),
-      var(--LINEAR-COLOR-two)
+      var(--BUTTON-COLOR)
     );
   }
 
   .login:hover {
-    margin: 0.3rem 2rem 1rem 35%;
+    display: block;
+    margin: 1rem auto 0 auto;
     padding: 0.4rem 7rem;
     border-radius: 10px;
     font-weight: 700;
     background: linear-gradient(
-      to bottom,
-      var(--LINEAR-COLOR-one),
-      rgb(21, 21, 97, 0.5)
+      to left,
+      rgb(0, 0, 255, 0.5),
+      var(--BUTTON-COLOR)
     );
   }
 
@@ -732,7 +740,7 @@ footer a {
     justify-content: center;
     align-items: center;
     background: linear-gradient(
-      to bottom,
+      to left,
       var(--LINEAR-COLOR-one),
       var(--LINEAR-COLOR-two)
     );
@@ -807,26 +815,28 @@ footer a {
 
   /* || Login button  */
   .login {
-    margin: 0.3rem 2rem 1rem 30%;
+    display: block;
+    margin: 1rem auto 0 auto;
     padding: 0.4rem 7rem;
     border-radius: 10px;
     font-weight: 700;
     background: linear-gradient(
-      to bottom,
+      to left,
       var(--LINEAR-COLOR-one),
-      var(--LINEAR-COLOR-two)
+      var(--BUTTON-COLOR)
     );
   }
 
   .login:hover {
-    margin: 0.3rem 2rem 1rem 30%;
+    display: block;
+    margin: 1rem auto 0 auto;
     padding: 0.4rem 7rem;
     border-radius: 10px;
     font-weight: 700;
     background: linear-gradient(
-      to bottom,
-      var(--LINEAR-COLOR-one),
-      rgb(21, 21, 97, 0.5)
+      to left,
+      rgb(0, 0, 255, 0.5),
+      var(--BUTTON-COLOR)
     );
   }
 
@@ -883,26 +893,28 @@ footer a {
 
   /* || Login button  */
   .login {
-    margin: 0.3rem 2rem 1rem 25%;
+    display: block;
+    margin: 1rem auto 0 auto;
     padding: 0.4rem 7rem;
     border-radius: 10px;
     font-weight: 700;
     background: linear-gradient(
-      to bottom,
+      to left,
       var(--LINEAR-COLOR-one),
-      var(--LINEAR-COLOR-two)
+      var(--BUTTON-COLOR)
     );
   }
 
   .login:hover {
-    margin: 0.3rem 2rem 1rem 25%;
+    display: block;
+    margin: 1rem auto 0 auto;
     padding: 0.4rem 7rem;
     border-radius: 10px;
     font-weight: 700;
     background: linear-gradient(
-      to bottom,
-      var(--LINEAR-COLOR-one),
-      rgb(21, 21, 97, 0.5)
+      to left,
+      rgb(0, 0, 255, 0.5),
+      var(--BUTTON-COLOR)
     );
   }
 }
@@ -933,26 +945,28 @@ footer a {
 
   /* || Login button  */
   .login {
-    margin: 0.3rem 2rem 1rem 20%;
+    display: block;
+    margin: 1rem auto 0 auto;
     padding: 0.4rem 7rem;
     border-radius: 10px;
     font-weight: 700;
     background: linear-gradient(
-      to bottom,
+      to left,
       var(--LINEAR-COLOR-one),
-      var(--LINEAR-COLOR-two)
+      var(--BUTTON-COLOR)
     );
   }
 
   .login:hover {
-    margin: 0.3rem 2rem 1rem 20%;
+    display: block;
+    margin: 1rem auto 0 auto;
     padding: 0.4rem 7rem;
     border-radius: 10px;
     font-weight: 700;
     background: linear-gradient(
-      to bottom,
-      var(--LINEAR-COLOR-one),
-      rgb(21, 21, 97, 0.5)
+      to left,
+      rgb(0, 0, 255, 0.5),
+      var(--BUTTON-COLOR)
     );
   }
 }
